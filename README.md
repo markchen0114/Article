@@ -12,3 +12,8 @@ https://events.storm.mg/codingstyle/coding_style/php/psr-2.html
 # Scrum
 
 https://medium.com/doflowy
+
+
+# Program
+
+https://columns.chicken-house.net/2019/06/15/netcli-pipeline/
