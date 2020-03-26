@@ -19,3 +19,7 @@ https://medium.com/doflowy
 https://columns.chicken-house.net/2019/06/15/netcli-pipeline/
 
 https://columns.chicken-house.net/2008/09/18/c-yield-return-1-how-it-work/
+
+# Redis
+
+https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/469735/
