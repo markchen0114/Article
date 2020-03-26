@@ -17,3 +17,4 @@ https://medium.com/doflowy
 # Program
 
 https://columns.chicken-house.net/2019/06/15/netcli-pipeline/
+https://columns.chicken-house.net/2008/09/18/c-yield-return-1-how-it-work/
