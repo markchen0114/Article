@@ -1,0 +1,21 @@
+if not exist "download" mkdir download
+if not exist "log" mkdir log
+
+set targetDate="%date:~0,4%%date:~5,2%%date:~8,2%"
+
+REM 指定日期時, 抓取指定日期的檔案
+if "%1" neq "" set targetDate=%1
+
+echo %targetDate%
+
+winscp.exe /log="log/sftp_!Y!M!D.log" ^
+ /command ^
+ "option batch abort" ^
+ "option confirm off" ^
+ "open sftp://<sftp username>:<sftp password>@<sftp server url or IP>" ^
+ "option transfer binary" ^
+ "cd /download" ^
+ "lcd ./download" ^
+ "get F_Data_%targetDate%.csv" ^
+ "close" ^
+ "exit"
